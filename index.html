@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/1c9ff852c0.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <style>
+        .bebas-neue-font {
+            font-family: "Bebas Neue", serif;
+        }
+
+        .roboto-font {
+            font-family: "Roboto", serif;
+        }
+    </style>
+</head>
+
+<body class="roboto-font">
+    <!-- Header section start -->
+    <header class="bg-[#FFFBF0] h-full">
+        <!-- navbar section start -->
+        <nav>
+            <section class="nav-container w-[90%] m-auto flex items-center justify-between pt-3">
+                <div class="sm:w-[20%] w-1/2">
+                    <img src="icons/logo.png" alt="" />
+                </div>
+                <div class="hidden sm:inline">
+                    <ul class="flex gap-14 font-medium text-[#3C3C3C]">
+                        <li>Home</li>
+                        <li>Product</li>
+                        <li>About us</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="sm:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+            </section>
+        </nav>
+        <!-- navbar section end -->
+
+        <!-- hero section start -->
+        <section class="w-[90%] m-auto pt-14 pb-11 sm:flex  sm:items-center">
+            <div class="sm:w-1/2">
+                <h1 class="bebas-neue-font text-[4rem] "><span class="text-[#FABE4C] ">Be the Penguins</span>
+                    <br><span class="text-[#363958]">of Winter</span>
+                </h1>
+                <p class="text-[#3E3E3E] pb-[1.5rem]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href=""><button
+                        class="py-[18px] px-[33px] bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-md text-white font-medium"><i
+                            class="fa-solid fa-cart-shopping"></i> BUY NOW</button></a>
+            </div>
+            <div class="sm:w-1/2 flex justify-center">
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
+        <!-- hero section end -->
+    </header>
+    <!-- Header section end -->
+
+    <main></main>
+
+    <footer></footer>
+</body>
+
+</html>
